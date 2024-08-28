@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.bg-event {
+  background-color: #323f4b;
+  color: white;
+  padding: 55px;
+  padding-top: 35px;
+  width: 65vw;
+}
+
+.event-heading {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 45px;
+}
+
+.event-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.active-container-main {
+  width: 35vw;
+  height: 100vh;
+}
